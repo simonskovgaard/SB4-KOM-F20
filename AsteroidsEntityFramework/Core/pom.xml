@@ -8,6 +8,8 @@
     </parent>
     <artifactId>Core</artifactId>
     <packaging>jar</packaging>
+
+    <name>Core</name>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -72,6 +74,11 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>Player</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>Asteroid</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
